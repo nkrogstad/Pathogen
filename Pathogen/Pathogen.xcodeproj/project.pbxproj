@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C16F77E51D4E875D0064D28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77E41D4E875D0064D28D /* AppDelegate.swift */; };
+		C16F77E71D4E875D0064D28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77E61D4E875D0064D28D /* ViewController.swift */; };
+		C16F77EA1D4E875D0064D28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F77E81D4E875D0064D28D /* Main.storyboard */; };
+		C16F77ED1D4E875D0064D28D /* Pathogen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C16F77EB1D4E875D0064D28D /* Pathogen.xcdatamodeld */; };
+		C16F77EF1D4E875D0064D28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16F77EE1D4E875D0064D28D /* Assets.xcassets */; };
+		C16F77F21D4E875D0064D28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F77F01D4E875D0064D28D /* LaunchScreen.storyboard */; };
+		C16F77FD1D4E875D0064D28D /* PathogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77FC1D4E875D0064D28D /* PathogenTests.swift */; };
+		C16F78081D4E875D0064D28D /* PathogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F78071D4E875D0064D28D /* PathogenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C16F77F91D4E875D0064D28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16F77D91D4E875D0064D28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16F77E01D4E875D0064D28D;
+			remoteInfo = Pathogen;
+		};
+		C16F78041D4E875D0064D28D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C16F77D91D4E875D0064D28D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C16F77E01D4E875D0064D28D;
+			remoteInfo = Pathogen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C16F77E11D4E875D0064D28D /* Pathogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16F77E41D4E875D0064D28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C16F77E61D4E875D0064D28D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C16F77E91D4E875D0064D28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C16F77EC1D4E875D0064D28D /* Pathogen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pathogen.xcdatamodel; sourceTree = "<group>"; };
+		C16F77EE1D4E875D0064D28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C16F77F11D4E875D0064D28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C16F77F31D4E875D0064D28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16F77F81D4E875D0064D28D /* PathogenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathogenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16F77FC1D4E875D0064D28D /* PathogenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathogenTests.swift; sourceTree = "<group>"; };
+		C16F77FE1D4E875D0064D28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16F78031D4E875D0064D28D /* PathogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16F78071D4E875D0064D28D /* PathogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathogenUITests.swift; sourceTree = "<group>"; };
+		C16F78091D4E875D0064D28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16F77DE1D4E875D0064D28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F77F51D4E875D0064D28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F78001D4E875D0064D28D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16F77D81D4E875D0064D28D = {
+			isa = PBXGroup;
+			children = (
+				C16F77E31D4E875D0064D28D /* Pathogen */,
+				C16F77FB1D4E875D0064D28D /* PathogenTests */,
+				C16F78061D4E875D0064D28D /* PathogenUITests */,
+				C16F77E21D4E875D0064D28D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16F77E21D4E875D0064D28D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16F77E11D4E875D0064D28D /* Pathogen.app */,
+				C16F77F81D4E875D0064D28D /* PathogenTests.xctest */,
+				C16F78031D4E875D0064D28D /* PathogenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16F77E31D4E875D0064D28D /* Pathogen */ = {
+			isa = PBXGroup;
+			children = (
+				C16F77E41D4E875D0064D28D /* AppDelegate.swift */,
+				C16F77E61D4E875D0064D28D /* ViewController.swift */,
+				C16F77E81D4E875D0064D28D /* Main.storyboard */,
+				C16F77EE1D4E875D0064D28D /* Assets.xcassets */,
+				C16F77F01D4E875D0064D28D /* LaunchScreen.storyboard */,
+				C16F77F31D4E875D0064D28D /* Info.plist */,
+				C16F77EB1D4E875D0064D28D /* Pathogen.xcdatamodeld */,
+			);
+			path = Pathogen;
+			sourceTree = "<group>";
+		};
+		C16F77FB1D4E875D0064D28D /* PathogenTests */ = {
+			isa = PBXGroup;
+			children = (
+				C16F77FC1D4E875D0064D28D /* PathogenTests.swift */,
+				C16F77FE1D4E875D0064D28D /* Info.plist */,
+			);
+			path = PathogenTests;
+			sourceTree = "<group>";
+		};
+		C16F78061D4E875D0064D28D /* PathogenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C16F78071D4E875D0064D28D /* PathogenUITests.swift */,
+				C16F78091D4E875D0064D28D /* Info.plist */,
+			);
+			path = PathogenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16F77E01D4E875D0064D28D /* Pathogen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16F780C1D4E875D0064D28D /* Build configuration list for PBXNativeTarget "Pathogen" */;
+			buildPhases = (
+				C16F77DD1D4E875D0064D28D /* Sources */,
+				C16F77DE1D4E875D0064D28D /* Frameworks */,
+				C16F77DF1D4E875D0064D28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pathogen;
+			productName = Pathogen;
+			productReference = C16F77E11D4E875D0064D28D /* Pathogen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C16F77F71D4E875D0064D28D /* PathogenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16F780F1D4E875D0064D28D /* Build configuration list for PBXNativeTarget "PathogenTests" */;
+			buildPhases = (
+				C16F77F41D4E875D0064D28D /* Sources */,
+				C16F77F51D4E875D0064D28D /* Frameworks */,
+				C16F77F61D4E875D0064D28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16F77FA1D4E875D0064D28D /* PBXTargetDependency */,
+			);
+			name = PathogenTests;
+			productName = PathogenTests;
+			productReference = C16F77F81D4E875D0064D28D /* PathogenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C16F78021D4E875D0064D28D /* PathogenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16F78121D4E875D0064D28D /* Build configuration list for PBXNativeTarget "PathogenUITests" */;
+			buildPhases = (
+				C16F77FF1D4E875D0064D28D /* Sources */,
+				C16F78001D4E875D0064D28D /* Frameworks */,
+				C16F78011D4E875D0064D28D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16F78051D4E875D0064D28D /* PBXTargetDependency */,
+			);
+			name = PathogenUITests;
+			productName = PathogenUITests;
+			productReference = C16F78031D4E875D0064D28D /* PathogenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16F77D91D4E875D0064D28D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Pathogen;
+				TargetAttributes = {
+					C16F77E01D4E875D0064D28D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R83AX8QQGA;
+					};
+					C16F77F71D4E875D0064D28D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R83AX8QQGA;
+						TestTargetID = C16F77E01D4E875D0064D28D;
+					};
+					C16F78021D4E875D0064D28D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = R83AX8QQGA;
+						TestTargetID = C16F77E01D4E875D0064D28D;
+					};
+				};
+			};
+			buildConfigurationList = C16F77DC1D4E875D0064D28D /* Build configuration list for PBXProject "Pathogen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C16F77D81D4E875D0064D28D;
+			productRefGroup = C16F77E21D4E875D0064D28D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16F77E01D4E875D0064D28D /* Pathogen */,
+				C16F77F71D4E875D0064D28D /* PathogenTests */,
+				C16F78021D4E875D0064D28D /* PathogenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16F77DF1D4E875D0064D28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F77F21D4E875D0064D28D /* LaunchScreen.storyboard in Resources */,
+				C16F77EF1D4E875D0064D28D /* Assets.xcassets in Resources */,
+				C16F77EA1D4E875D0064D28D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F77F61D4E875D0064D28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F78011D4E875D0064D28D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16F77DD1D4E875D0064D28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F77ED1D4E875D0064D28D /* Pathogen.xcdatamodeld in Sources */,
+				C16F77E71D4E875D0064D28D /* ViewController.swift in Sources */,
+				C16F77E51D4E875D0064D28D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F77F41D4E875D0064D28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F77FD1D4E875D0064D28D /* PathogenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C16F77FF1D4E875D0064D28D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F78081D4E875D0064D28D /* PathogenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C16F77FA1D4E875D0064D28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16F77E01D4E875D0064D28D /* Pathogen */;
+			targetProxy = C16F77F91D4E875D0064D28D /* PBXContainerItemProxy */;
+		};
+		C16F78051D4E875D0064D28D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C16F77E01D4E875D0064D28D /* Pathogen */;
+			targetProxy = C16F78041D4E875D0064D28D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C16F77E81D4E875D0064D28D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16F77E91D4E875D0064D28D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C16F77F01D4E875D0064D28D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16F77F11D4E875D0064D28D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16F780A1D4E875D0064D28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C16F780B1D4E875D0064D28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C16F780D1D4E875D0064D28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pathogen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.Pathogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C16F780E1D4E875D0064D28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pathogen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.Pathogen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C16F78101D4E875D0064D28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PathogenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.PathogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathogen.app/Pathogen";
+			};
+			name = Debug;
+		};
+		C16F78111D4E875D0064D28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PathogenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.PathogenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pathogen.app/Pathogen";
+			};
+			name = Release;
+		};
+		C16F78131D4E875D0064D28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PathogenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.PathogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pathogen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C16F78141D4E875D0064D28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PathogenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.asu.bsse.nkrogsta.PathogenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pathogen;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16F77DC1D4E875D0064D28D /* Build configuration list for PBXProject "Pathogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F780A1D4E875D0064D28D /* Debug */,
+				C16F780B1D4E875D0064D28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16F780C1D4E875D0064D28D /* Build configuration list for PBXNativeTarget "Pathogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F780D1D4E875D0064D28D /* Debug */,
+				C16F780E1D4E875D0064D28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C16F780F1D4E875D0064D28D /* Build configuration list for PBXNativeTarget "PathogenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F78101D4E875D0064D28D /* Debug */,
+				C16F78111D4E875D0064D28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C16F78121D4E875D0064D28D /* Build configuration list for PBXNativeTarget "PathogenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F78131D4E875D0064D28D /* Debug */,
+				C16F78141D4E875D0064D28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C16F77EB1D4E875D0064D28D /* Pathogen.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C16F77EC1D4E875D0064D28D /* Pathogen.xcdatamodel */,
+			);
+			currentVersion = C16F77EC1D4E875D0064D28D /* Pathogen.xcdatamodel */;
+			path = Pathogen.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C16F77D91D4E875D0064D28D /* Project object */;
+}
