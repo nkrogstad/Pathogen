@@ -8,13 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		C16F77E51D4E875D0064D28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77E41D4E875D0064D28D /* AppDelegate.swift */; };
-		C16F77E71D4E875D0064D28D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77E61D4E875D0064D28D /* ViewController.swift */; };
 		C16F77EA1D4E875D0064D28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F77E81D4E875D0064D28D /* Main.storyboard */; };
 		C16F77ED1D4E875D0064D28D /* Pathogen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C16F77EB1D4E875D0064D28D /* Pathogen.xcdatamodeld */; };
 		C16F77EF1D4E875D0064D28D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16F77EE1D4E875D0064D28D /* Assets.xcassets */; };
 		C16F77F21D4E875D0064D28D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F77F01D4E875D0064D28D /* LaunchScreen.storyboard */; };
 		C16F77FD1D4E875D0064D28D /* PathogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F77FC1D4E875D0064D28D /* PathogenTests.swift */; };
 		C16F78081D4E875D0064D28D /* PathogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F78071D4E875D0064D28D /* PathogenUITests.swift */; };
+		C16F78181D4E902F0064D28D /* mhgen_helm_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F78171D4E902F0064D28D /* mhgen_helm_icon.png */; };
+		C16F781A1D4E91B00064D28D /* mhgen_chest_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F78191D4E91B00064D28D /* mhgen_chest_icon.png */; };
+		C16F781C1D4E91B80064D28D /* mhgen_waist_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F781B1D4E91B80064D28D /* mhgen_waist_icon.png */; };
+		C16F781E1D4E91BE0064D28D /* mhgen_legs_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F781D1D4E91BE0064D28D /* mhgen_legs_icon.png */; };
+		C16F78201D4E99790064D28D /* mhgen_armor_bg_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F781F1D4E99790064D28D /* mhgen_armor_bg_icon.png */; };
+		C16F78251D4EAD080064D28D /* ArmorBuilderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F78241D4EAD080064D28D /* ArmorBuilderVC.swift */; };
+		C16F78271D4EE75F0064D28D /* mhgen_3_slot.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F78261D4EE75F0064D28D /* mhgen_3_slot.png */; };
+		C16F78291D4EE9B30064D28D /* mhgen_2_slot.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F78281D4EE9B30064D28D /* mhgen_2_slot.png */; };
+		C16F782B1D4EE9BB0064D28D /* mhgen_1_slot.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F782A1D4EE9BB0064D28D /* mhgen_1_slot.png */; };
+		C16F782D1D4EF7C60064D28D /* mhgen_0_slot.png in Resources */ = {isa = PBXBuildFile; fileRef = C16F782C1D4EF7C60064D28D /* mhgen_0_slot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +46,6 @@
 /* Begin PBXFileReference section */
 		C16F77E11D4E875D0064D28D /* Pathogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pathogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16F77E41D4E875D0064D28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C16F77E61D4E875D0064D28D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C16F77E91D4E875D0064D28D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C16F77EC1D4E875D0064D28D /* Pathogen.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pathogen.xcdatamodel; sourceTree = "<group>"; };
 		C16F77EE1D4E875D0064D28D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +57,16 @@
 		C16F78031D4E875D0064D28D /* PathogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PathogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C16F78071D4E875D0064D28D /* PathogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathogenUITests.swift; sourceTree = "<group>"; };
 		C16F78091D4E875D0064D28D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C16F78171D4E902F0064D28D /* mhgen_helm_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_helm_icon.png; sourceTree = "<group>"; };
+		C16F78191D4E91B00064D28D /* mhgen_chest_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_chest_icon.png; sourceTree = "<group>"; };
+		C16F781B1D4E91B80064D28D /* mhgen_waist_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_waist_icon.png; sourceTree = "<group>"; };
+		C16F781D1D4E91BE0064D28D /* mhgen_legs_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_legs_icon.png; sourceTree = "<group>"; };
+		C16F781F1D4E99790064D28D /* mhgen_armor_bg_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_armor_bg_icon.png; sourceTree = "<group>"; };
+		C16F78241D4EAD080064D28D /* ArmorBuilderVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArmorBuilderVC.swift; sourceTree = "<group>"; };
+		C16F78261D4EE75F0064D28D /* mhgen_3_slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_3_slot.png; sourceTree = "<group>"; };
+		C16F78281D4EE9B30064D28D /* mhgen_2_slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_2_slot.png; sourceTree = "<group>"; };
+		C16F782A1D4EE9BB0064D28D /* mhgen_1_slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_1_slot.png; sourceTree = "<group>"; };
+		C16F782C1D4EF7C60064D28D /* mhgen_0_slot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mhgen_0_slot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +118,21 @@
 			isa = PBXGroup;
 			children = (
 				C16F77E41D4E875D0064D28D /* AppDelegate.swift */,
-				C16F77E61D4E875D0064D28D /* ViewController.swift */,
 				C16F77E81D4E875D0064D28D /* Main.storyboard */,
 				C16F77EE1D4E875D0064D28D /* Assets.xcassets */,
 				C16F77F01D4E875D0064D28D /* LaunchScreen.storyboard */,
 				C16F77F31D4E875D0064D28D /* Info.plist */,
 				C16F77EB1D4E875D0064D28D /* Pathogen.xcdatamodeld */,
+				C16F78171D4E902F0064D28D /* mhgen_helm_icon.png */,
+				C16F78191D4E91B00064D28D /* mhgen_chest_icon.png */,
+				C16F781B1D4E91B80064D28D /* mhgen_waist_icon.png */,
+				C16F781D1D4E91BE0064D28D /* mhgen_legs_icon.png */,
+				C16F781F1D4E99790064D28D /* mhgen_armor_bg_icon.png */,
+				C16F782C1D4EF7C60064D28D /* mhgen_0_slot.png */,
+				C16F782A1D4EE9BB0064D28D /* mhgen_1_slot.png */,
+				C16F78281D4EE9B30064D28D /* mhgen_2_slot.png */,
+				C16F78261D4EE75F0064D28D /* mhgen_3_slot.png */,
+				C16F78241D4EAD080064D28D /* ArmorBuilderVC.swift */,
 			);
 			path = Pathogen;
 			sourceTree = "<group>";
@@ -235,9 +262,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16F781E1D4E91BE0064D28D /* mhgen_legs_icon.png in Resources */,
+				C16F78201D4E99790064D28D /* mhgen_armor_bg_icon.png in Resources */,
+				C16F782D1D4EF7C60064D28D /* mhgen_0_slot.png in Resources */,
 				C16F77F21D4E875D0064D28D /* LaunchScreen.storyboard in Resources */,
 				C16F77EF1D4E875D0064D28D /* Assets.xcassets in Resources */,
+				C16F78291D4EE9B30064D28D /* mhgen_2_slot.png in Resources */,
+				C16F78271D4EE75F0064D28D /* mhgen_3_slot.png in Resources */,
+				C16F78181D4E902F0064D28D /* mhgen_helm_icon.png in Resources */,
+				C16F781A1D4E91B00064D28D /* mhgen_chest_icon.png in Resources */,
 				C16F77EA1D4E875D0064D28D /* Main.storyboard in Resources */,
+				C16F781C1D4E91B80064D28D /* mhgen_waist_icon.png in Resources */,
+				C16F782B1D4EE9BB0064D28D /* mhgen_1_slot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C16F77ED1D4E875D0064D28D /* Pathogen.xcdatamodeld in Sources */,
-				C16F77E71D4E875D0064D28D /* ViewController.swift in Sources */,
+				C16F78251D4EAD080064D28D /* ArmorBuilderVC.swift in Sources */,
 				C16F77E51D4E875D0064D28D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
